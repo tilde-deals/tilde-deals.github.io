@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Aeonik, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  color: white;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 60vh;
+	top: 0px;
+	left: 0px;
+	background-color: #ffffff;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: calc(100% - 240px);
+	height: calc(100vh - 320px);
+	padding: 160px 120px;
+}
+
+.container p {
+	font-size: 96px;
+	color: rgb(0, 170, 64);
+	margin: 0px;
+}
+
+.container span {
+	font-weight: 700;
+}
+
+.container h1 {
+	font-size: 56px;
+	font-weight: 500;
+	margin: 0px 0px 12px 0px;
+}
+
+.container h2 {
+	font-size: 28px;
+	margin: 0px;
+	font-weight: 500;
+}
+
+.container footer{
+}
+
+.container .title {
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/Aeonik-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/Aeonik-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/Aeonik-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
