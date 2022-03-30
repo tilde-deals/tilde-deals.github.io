@@ -29,26 +29,39 @@ body {
 	padding: 160px 120px;
 }
 
-.container p {
+.title p {
 	font-size: 96px;
 	color: rgb(0, 170, 64);
 	margin: 0px;
 }
 
-.container span {
+.title span {
 	font-weight: 700;
 }
 
-.container h1 {
+.title h1 {
 	font-size: 56px;
 	font-weight: 400;
 	margin: 0px 0px 12px 0px;
 }
 
-.container h2 {
+.title h2 {
 	font-size: 28px;
 	margin: 0px;
 	font-weight: 400;
+}
+
+.footer {
+	text-align: right;
+}
+
+.footer a {
+	color: rgb(0, 170, 64);
+}
+
+.footer p {
+	margin: 0px;
+	margin-top: 8px;
 }
 
 code {
