@@ -16,6 +16,7 @@ body {
 	top: 0px;
 	left: 0px;
 	background-color: #000;
+	z-index: -1;
 }
 
 .container {
@@ -27,6 +28,12 @@ body {
 	width: calc(100% - 240px);
 	height: calc(100vh - 320px);
 	padding: 160px 120px;
+}
+
+.tilde-mark p {
+	font-size: 120px;
+	color: rgb(0, 170, 64);
+	margin: 0px;
 }
 
 .title p {
